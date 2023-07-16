@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  align-items: center;
+  background-color: hsl(218, 23%, 16%);
+  display: flex;
+  font-family: 'Manrope', sans-serif;
+  height: 100vh;
+  justify-content: center;
+  width: 100vw;
+}
+
+.advice__container {
+  align-items: center;
+  background-color: hsl(217, 19%, 24%);
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 34rem;
+  padding: 3rem;
+  position: relative;
+}
+
+.advice__title {
+  color: hsl(150, 100%, 66%);
+  font-size: 1rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.advice__phrase {
+  color: hsl(193, 38%, 86%);
+  font-size: 28px;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.advice__divider {
+  margin-bottom: 1rem;
+}
+
+.icon__container {
+  align-items: center;
+  background: hsl(150, 100%, 66%);
+  border-radius: 50%;
+  bottom: calc(0% - 24px);
+  display: flex;
+  height: 3rem;
+  justify-content: center;
+  left: calc(50% - 24px);
+  position: absolute;
+  width: 3rem;
+}
+
+.icon__container:hover {
+  box-shadow: hsl(150, 100%, 66%) 0 0 2rem;
+}
+
+.advice__icon {
+  height: 1.3rem;
+  width: 1.3rem;
+}
